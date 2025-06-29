@@ -1,0 +1,145 @@
+/* ! Dont port to Sheezy */
+
+@font-face {
+    font-family: daxfont;
+    src: url(https://file.garden/ZnGZOv7aF21WeO00/DAXT_regular.ttf);
+}
+
+p,li {
+    font-family: daxfont;
+    color: white;
+  
+}
+
+body {
+margin: 30px;
+background-color: #1f1f1f;
+ position: relative;
+}
+
+
+/* Port to Sheezy */
+
+html{
+scroll-behavior: smooth;
+}
+
+blockquote {
+border-radius: 30px;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.301);
+}
+
+h1, h4 {
+font-family: daxfont;
+text-align: center;
+color: rgb(224, 165, 0);
+}
+
+h3,h2{
+font-family: daxfont;
+color: rgb(224, 165, 0);
+}
+
+@keyframes Glow {
+0%{color:  rgb(224, 165, 0);}
+50% {color: orangered;}
+100% {color:  rgb(224, 165, 0);}
+}
+
+enf {
+text-shadow: 0 0 2px ;
+font-family: daxfont;
+animation: Glow 5s infinite;
+}
+
+#pkdex{display: inline-block;
+cursor: pointer;
+}
+#pkdex input,
+#pkdex input:checked + img,
+#pkdex input:not(:checked) + img + img {
+display: none;
+}
+
+a {
+transition: 0.5s;
+text-decoration: none;
+font-family: daxfont;
+color: aliceblue;
+position: relative;
+z-index: 2;
+}
+
+a:hover {
+font-size: larger;
+text-shadow: 0 0 2px ;
+animation: Glow 5s infinite;
+}
+
+.spinny {
+position: relative;
+flex: 30%;
+transition: 2s  ease-in-out;
+z-index: 2;
+}
+
+.spinny:hover {
+cursor: default;
+transform: rotate(360deg); 
+}
+
+.container {
+display:flex;
+flex-direction: row;
+column-gap: 20px;
+padding: 30px;
+}
+
+.container > div {
+display: flex;
+flex-direction: column;
+flex: 1%;
+flex-wrap: wrap;
+font-family: daxfont;
+border: 1px solid whitesmoke;
+background-color: rgba(0, 0, 0, 0.301);
+border-radius: 10px;
+padding: 10px;
+}
+
+ol {
+margin-left: -10px;
+}
+
+li {
+margin-bottom: 10px;
+}
+
+@keyframes Backtop{
+0% {transform: scaleX(1) scaleY(1.2) ;}
+50% {transform: scaleX(1.2) scaleY(1) ;}
+100% {transform:scaleX(1) scaleY(1.2) ;}
+}
+
+#wrapper{
+transform: translateX(-45px) translateY(-80px);
+width: 100%;
+height: 100%;
+position: fixed;
+display: flex;
+align-items: end;
+justify-content: flex-end;
+}
+
+#scrl-button{
+position: absolute;
+opacity: 30%;
+transition: opacity .5s ease-out;
+}
+
+#scrl-button:hover {
+animation: Backtop 0.6s infinite ease-in-out ;
+opacity: 100%;
+}
+
