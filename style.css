@@ -72,12 +72,15 @@ z-index: 2;
 }
 
 a:hover {
-font-size: larger;
+text-transform: full-width;
 text-shadow: 0 0 2px ;
 animation: Glow 5s infinite;
 }
 
 .spinny {
+display: flex;
+justify-content: center;
+align-items: center;
 position: relative;
 flex: 30%;
 transition: 2s  ease-in-out;
@@ -123,7 +126,7 @@ margin-bottom: 10px;
 }
 
 #wrapper{
-transform: translateX(-45px) translateY(-80px);
+transform: translateX(-45px) translateY(-35px);
 width: 100%;
 height: 100%;
 position: fixed;
@@ -143,3 +146,16 @@ animation: Backtop 0.6s infinite ease-in-out ;
 opacity: 100%;
 }
 
+
+.placing {
+display: block;
+justify-items: center;
+}
+
+.grow{
+z-index: 2;
+position: relative;
+}
+.grow:hover{
+font-size: larger;
+}
