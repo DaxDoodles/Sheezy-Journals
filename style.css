@@ -68,7 +68,7 @@ z-index: 2;
 }
 
 a:hover {
-text-shadow: 0 0 2px ;
+text-shadow: 0 0 .5px ;
 animation: Glow 5s infinite;
 }
 
