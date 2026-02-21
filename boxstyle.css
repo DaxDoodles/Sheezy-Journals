@@ -120,4 +120,8 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
+.hcb-comment-tb button:hover {
+  background-color: orangered !important;
+}
+
 
