@@ -33,7 +33,7 @@ margin: auto;
 blockquote {
 border-radius: 30px;
 padding: 5px;
-background-color: rgba(0, 0, 0, 0.301);
+background-color: black;
 
 }
 
@@ -46,8 +46,6 @@ align-items: center;
 
 div.likes > img{
     width: 20px;
-    margin-right: 20px;
-    margin-bottom: 5px;
 }
 
 .home-desc, #comments_list + a {
