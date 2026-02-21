@@ -46,6 +46,9 @@ align-items: center;
 
 div.likes > img{
     width: 20px;
+    background-colour: orange;
+    border-radius:50px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
