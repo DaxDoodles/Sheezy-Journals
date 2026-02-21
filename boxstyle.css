@@ -39,6 +39,9 @@ background-color: rgba(0, 0, 0, 0.301);
 
 img{
 width: 200px;
+display:flex;
+justify-content: center;
+align-items: center;
 }
 
 .home-desc, #comments_list + a {
