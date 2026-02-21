@@ -44,6 +44,10 @@ justify-content: center;
 align-items: center;
 }
 
+div.likes > img{
+    width: 40px;
+}
+
 .home-desc, #comments_list + a {
   display: none !important;
 }
