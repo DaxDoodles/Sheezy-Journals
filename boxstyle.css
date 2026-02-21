@@ -107,11 +107,15 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   padding: 5px;
   }
 
-#HCB_comment_box, .hcb-comment-tb, button{
-font-family: "daxfont" !important;
-colour: orange !important;
-margin-left: 2rem;
-}
-
+.hcb-comment-tb button {
+  font-size: 18px;
+  color: black;
+  border: none;
+  margin-right: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  background-color: orange;
+  width: 100px;
+  border-radius: 30px;
 
 
