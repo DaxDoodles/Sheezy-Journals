@@ -1,0 +1,101 @@
+/* ! Dont port to Sheezy */
+
+@font-face {
+    font-family: daxfont;
+    src: url(https://file.garden/ZnGZOv7aF21WeO00/DAXT_regular.ttf);
+}
+
+
+body {
+background-color: #1f1f1f;
+position: relative;
+
+}
+
+
+/* Port to Sheezy */
+
+
+html{
+scroll-behavior: smooth;
+font-family: daxfont !important;
+cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
+margin: auto;
+}
+
+blockquote {
+border-radius: 30px;
+padding: 5px;
+background-color: rgba(0, 0, 0, 0.301);
+
+}
+
+
+
+.home-desc, #comments_list + a {
+  display: none !important;
+}
+
+
+#HCB_comment_box {
+font-family: "daxfont" !important;
+height:auto;
+padding:2rem !important;
+border-radius: 30px;
+cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
+}
+
+#hcb_submit, .submit.btn, #hcb_file, .inputfile, #hcb_file_label, .btn, .btn-secondary{
+font-family: "daxfont" !important;
+font-size: 18px !important;
+border-radius: 30px !important;
+padding: 15px !important;accent-color: 
+cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
+}
+
+#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn{
+  color: orange !important;
+ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
+}
+
+#HCB_comment_box #hcb_form .btn-secondary, #HCB_comment_box #HCB_comment_form_box .btn-secondary{
+  background: orange !important;
+  color: black !important;
+  animation: none !important;
+  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
+}
+
+#HCB_comment_box h3{
+display: none;
+}
+
+
+#HCB_comment_box #hcb_form_content,
+#HCB_comment_box #hcb_form_email,
+#HCB_comment_box #hcb_form_name,
+#HCB_comment_box #hcb_form_website,
+#HCB_comment_box .author-name,
+#HCB_comment_box .hcb-comment-body,
+#HCB_comment_box .hcb-comment-tb a {
+background-color: black;
+border-radius:20px;
+border: none;
+font-size: 20px !important; 
+font-family: "daxfont" !important;
+padding: 20px !important;
+margin-bottom: 1rem !important;
+color: whitesmoke;
+cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
+  }
+
+#comments_list, #HCB_comment_box blockquote {
+  background-color:black;
+  color: whitesmoke;
+  border-radius: 30px;
+  padding: 5px;
+  padding-left: 2rem;
+  }
+  
+
+
+
