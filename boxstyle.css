@@ -94,7 +94,7 @@ border-radius:20px;
 border: none;
 font-size: 20px !important; 
 font-family: "daxfont" !important;
-padding: 20px !important;
+padding: 20px 20px 10px 20px !important;
 margin-bottom: 1rem !important;
 color: whitesmoke;
 cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
