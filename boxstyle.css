@@ -103,7 +103,12 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   border-radius: 30px;
   padding: 5px;
   }
-  
+
+#HCB_comment_box .hcb-comment-tb button{
+font-family: "daxfont" !important;
+colour: orange;
+
+}
 
 
 
