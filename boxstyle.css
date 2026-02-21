@@ -95,7 +95,7 @@ display: none;
 #HCB_comment_box .hcb-comment-body,
 #HCB_comment_box .hcb-comment-tb a {
 background-color: black;
-border-radius:20px;
+border-radius:10px;
 border: 2px !important;
 border-style: dotted !important;
 font-size: 20px !important; 
