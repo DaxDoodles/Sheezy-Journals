@@ -88,13 +88,17 @@ display: none;
 }
 
 
+
+#HCB_comment_box #hcb_form_content,
 #HCB_comment_box #hcb_form_email,
 #HCB_comment_box #hcb_form_name,
 #HCB_comment_box #hcb_form_website,
 #HCB_comment_box .author-name,
 #HCB_comment_box .hcb-comment-body,
 #HCB_comment_box .hcb-comment-tb a {
-background-color: black;
+background-color: black;  
+border: 2px !important;
+border-style: dotted !important;
 font-size: 20px !important; 
 font-family: "daxfont" !important;
 padding: 20px 20px 10px 20px !important;
@@ -104,13 +108,11 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   }
 
 #comments_list, #HCB_comment_box blockquote {
-  border: 2px !important;
-  border-style: dotted !important;
-  background-color:black;
   color: whitesmoke;
   border-radius: 30px;
   padding: 5px;
   }
+
 
 .hcb-comment-tb button {
   font-family: "daxfont" !important;
