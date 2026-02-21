@@ -107,7 +107,7 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   padding: 5px;
   }
 
-#HCB_comment_box .hcb-comment-tb button{
+#HCB_comment_box, .hcb-comment-tb, button{
 font-family: "daxfont" !important;
 colour: orange !important;
 margin-left: 2rem;
