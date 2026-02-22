@@ -40,6 +40,7 @@ background-color: black;
 img{
 width: 200px;
 margin-left: 2rem;
+padding-right: 1rem;
 }
 
 div.likes > img{
