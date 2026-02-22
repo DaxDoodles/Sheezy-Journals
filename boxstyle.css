@@ -107,6 +107,10 @@ color: whitesmoke;
 cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
   }
 
+#HCB_comment_box .author-name{
+color: orange !important;
+}
+
 #comments_list, #HCB_comment_box blockquote {
   color: whitesmoke;
   border-radius: 30px;
