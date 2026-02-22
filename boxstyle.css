@@ -40,7 +40,6 @@ background-color: black;
 img{
 width: 200px;
 margin-left: 2rem;
-margin-right: 2rem;
 }
 
 div.likes > img{
@@ -171,7 +170,7 @@ color: orange !important;
 }
 
 #HCB_comment_box .comment:has(a > img) > blockquote .hcb-comment-body {
-    margin-left: 220px;
+    margin-left: 230px;
     cursor: url(https://daxdoodles.neocities.org/Pencil.png), auto !important;
     padding-left: 0 !important;
 }
