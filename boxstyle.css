@@ -46,7 +46,7 @@ align-items: center;
 
 div.likes > img{
     width: 20px;
-    margin: auto;
+    margin: 5px 20px 0px 0px;
 }
 
 .home-desc, #comments_list + a {
