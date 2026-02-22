@@ -39,11 +39,12 @@ background-color: black;
 
 img{
 width: 200px;
-margin: 5px 0px 0px 2rem;
+margin-left: 2rem;
 }
 
 div.likes > img{
  width: 20px;
+ margin: 5px 0px 0px 1px;
 }
 div.likes{
  margin: 10px 20px 0px 0px;
