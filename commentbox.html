@@ -66,18 +66,6 @@ hcb_user = {
     ON_COMMENT: function(){}, /* Function to call after commenting. */
     RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
 };
-
-    hcb_user.onload(() => {
-  console.log('Body scrollHeight:', document.body.scrollHeight);
-  console.log('Document scrollHeight:', document.documentElement.scrollHeight);
-
-  var height = document.documentElement.scrollHeight || document.body.scrollHeight;
-
-  window.parent.postMessage({
-    type: 'iframeSize',
-    height: height,
-  }, '*');
-}); 
 </script>
 <!-- done customizing labels of htmlcommentbox.com -->
 
