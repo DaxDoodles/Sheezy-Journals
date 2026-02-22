@@ -159,6 +159,7 @@ color: orange !important;
     overflow: hidden;
     border-radius: 30px;
     padding-bottom: 0;
+    cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
 }
 
 #HCB_comment_box .comment:has(a > img) > blockquote {
@@ -192,7 +193,7 @@ color: orange !important;
     display: inline-block;
     width: 32px;
     height: 36px;
-    background-image: url(https://file.garden/ZnGZOv7aF21WeO00/Roundboi%20Emojis/RB_HeartBubble.png);
+    background-image: url(https://file.garden/ZnGZOv7aF21WeO00/Roundboi%20Emojis/RB_Heart.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
