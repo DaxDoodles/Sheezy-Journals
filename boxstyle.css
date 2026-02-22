@@ -67,6 +67,10 @@ border-radius: 30px;
 cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
 }
 
+#HCB_comment_box > img{
+float: left;
+}
+
 #hcb_submit, .submit.btn, #hcb_file, .inputfile, #hcb_file_label, .btn, .btn-secondary{
 font-family: "daxfont" !important;
 font-size: 18px !important;
