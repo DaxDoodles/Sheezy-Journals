@@ -49,7 +49,7 @@ div.likes{
  margin: 10px 20px 0px 0px;
  background-color: orange;
  border-radius: 20px;
- colour: black;
+ colour: black !important;
  padding: 10px;
 }
 
