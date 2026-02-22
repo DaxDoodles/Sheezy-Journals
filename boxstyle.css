@@ -45,8 +45,10 @@ align-items: center;
 }
 
 div.likes > img{
-    width: 20px;
-    margin: 5px 20px 0px 0px;
+ width: 20px;
+}
+div.likes{
+ margin: 5px 20px 0px 0px;
 }
 
 .home-desc, #comments_list + a {
