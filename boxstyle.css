@@ -181,3 +181,24 @@ color: orange !important;
 #HCB_comment_box .comment > blockquote + a img {
     border-radius: 4px;
 }
+
+#HCB_comment_box .likes > span {
+    font-size: 24px;
+    color: black;
+}
+
+#HCB_comment_box .likes > span::after {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 36px;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/002/595/955/ac9.gif);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-left: -3px;
+}
+
+#HCB_comment_box .likes img {
+    display: none;
+}
