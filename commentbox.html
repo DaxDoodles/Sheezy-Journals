@@ -84,15 +84,17 @@ hcb_user = {
   function waitForElement(selector, callback) {
     var element = document.querySelector(selector);
     if (element && element.innerHTML.trim() !== '') {
+      console.log("fired")
       setTimeout(callback, 200);
     } else {
       setTimeout(() => {
+        console.log("waiting")
         waitForElement(selector, callback);
       }, 100);
     };
   };
 
-  waitForElement('#HTMLCommentBox', () => {
+  waitForElement('#comments_list', () => {
     var height = document.documentElement.scrollHeight || document.body.scrollHeight;
 
     window.parent.postMessage({
@@ -101,6 +103,7 @@ hcb_user = {
     }, '*');
   });
 </script>
+
     
 </body>
 </html>
