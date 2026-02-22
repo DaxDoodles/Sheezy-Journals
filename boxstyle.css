@@ -69,6 +69,7 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
 
 #HCB_comment_box > img{
 float: left;
+margin: 10px;
 }
 
 #hcb_submit, .submit.btn, #hcb_file, .inputfile, #hcb_file_label, .btn, .btn-secondary{
