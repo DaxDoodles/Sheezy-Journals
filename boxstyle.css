@@ -50,7 +50,9 @@ div.likes > img{
 div.likes{
  margin: 5px 20px 0px 0px;
  background-color: orange;
- border-radius: 50px;
+ border-radius: 20px;
+ colour: black;
+ padding: 10px;
 }
 
 .home-desc, #comments_list + a {
