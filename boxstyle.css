@@ -76,25 +76,25 @@ padding: 15px !important;accent-color:
 cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
-#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn{
+.btn{
   color: orange !important;
  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
-#HCB_comment_box #hcb_form .btn, #HCB_comment_box #HCB_comment_form_box .btn:hover{
+.btn:hover{
   color: black !important;
   background-colour: orangered;
  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
-#HCB_comment_box #hcb_form .btn-secondary, #HCB_comment_box #HCB_comment_form_box .btn-secondary{
+.btn-secondary{
   background: orange !important;
   color: black !important;
   animation: none !important;
   cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
-#HCB_comment_box #hcb_form .btn-secondary, #HCB_comment_box #HCB_comment_form_box .btn-secondary:hover{
+.btn-secondary:hover{
   background: orangered !important;
   color: black !important;
   animation: none !important;
