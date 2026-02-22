@@ -43,7 +43,7 @@ margin-left: 2rem;
 }
 
 div.likes > img{
- width: 20px;
+ width: 10px;
  margin: 5px 0px 0px 1px;
 }
 div.likes{
@@ -83,7 +83,7 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 
 .btn:hover{
   color: black !important;
-  background-color: orangered;
+  background-color: orangered !important;
  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
