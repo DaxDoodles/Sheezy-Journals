@@ -39,16 +39,14 @@ background-color: black;
 
 img{
 width: 200px;
-display:flex;
-justify-content: center;
-align-items: center;
+margin: 5px 0px 0px 2rem;
 }
 
 div.likes > img{
  width: 20px;
 }
 div.likes{
- margin: 5px 20px 0px 0px;
+ margin: 10px 20px 0px 0px;
  background-color: orange;
  border-radius: 20px;
  colour: black;
