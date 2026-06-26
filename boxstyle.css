@@ -9,16 +9,18 @@
 body {
 background-color: rgba(0, 0, 0, 0);
 position: relative;
-
+font-family: daxfont !important;
 }
 
 h1, h4 {
 text-align: center;
 color: rgb(224, 165, 0);
+font-family: daxfont !important;
 }
 
 h3,h2{
 color: rgb(224, 165, 0);
+font-family: daxfont !important;
 }
 
 
@@ -61,7 +63,7 @@ div.likes{
 
 
 #HCB_comment_box {
-font-family: "daxfont" !important;
+font-family: daxfont !important;
 height:auto;
 padding:2rem !important;
 border-radius: 30px;
@@ -70,7 +72,7 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
 
 
 #hcb_submit, .submit.btn, #hcb_file, .inputfile, #hcb_file_label, .btn, .btn-secondary{
-font-family: "daxfont" !important;
+font-family: daxfont !important;
 font-size: 18px !important;
 border-radius: 30px !important;
 padding: 15px !important;accent-color: 
@@ -78,11 +80,13 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
 .btn{
-  color: orange !important;
+ font-family: daxfont !important;
+ color: orange !important;
  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
 .btn:hover{
+  font-family: daxfont !important;
   color: black !important;
   background-color: orangered !important;
  cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
@@ -96,6 +100,7 @@ cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto !important;
 }
 
 .btn-secondary:hover{
+  font-family: daxfont !important;
   background: orangered !important;
   color: black !important;
   animation: none !important;
@@ -120,7 +125,7 @@ background-color: black;
 border:none;
 border-radius: 20px;
 font-size: 20px !important; 
-font-family: "daxfont" !important;
+font-family: daxfont !important;
 padding: 20px 20px 20px 20px !important;
 color: whitesmoke;
 cursor: url('https://daxdoodles.neocities.org/Pencil.png'), auto;
@@ -138,7 +143,7 @@ color: orange !important;
 
 
 .hcb-comment-tb button {
-  font-family: "daxfont" !important;
+  font-family: daxfont !important;
   font-size: 18px;
   color: black !important;
   border: none;
